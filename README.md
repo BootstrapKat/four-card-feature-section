@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/BootstrapKat/four-card-feature-section](https://github.com/BootstrapKat/four-card-feature-section)
+- Live Site URL: [https://bootstrapkat.github.io/four-card-feature-section/](https://bootstrapkat.github.io/four-card-feature-section/)
 
 ## My process
 
