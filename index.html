@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Tailwind -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Four card feature section</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container mx-auto text-center">
+    <section id="heading">
+      <h1 class="font-extralight text-3xl mt-20 pb-8 md:text-4xl">Reliable, efficient delivery<br><span class="font-semibold">Powered by Technology</span></h1>
+      <p class="text-base px-12 pb-18 mx-auto max-w-md">Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful</p>
+    </section>
+
+    <div class="section-wrapper flex flex-col justify-center items-center lg:flex-row">
+      <section id="supervisor" class="bg-white rounded-md border-t-4 mx-14 mt-8 mb-2 p-8 text-left filter drop-shadow-xl max-w-sm lg:my-48 order-1">
+        <h2 class="font-semibold text-2xl">Supervisor</h2>
+        <p class="text-sm pt-4 font-extralight">Monitors activity to identify project roadblocks</p>
+        <div class="text-right mt-14">
+          <img class="inline-block" src="images/icon-supervisor.svg" alt="Supervisor"/>
+        </div>
+      </section>
+      
+      <div class="md-section-wrapper order-2 my-auto">
+        <section id="team-builder" class="bg-white rounded-md border-t-4 mx-14 my-8 p-8 text-left filter drop-shadow-xl max-w-sm order-3">
+          <h2 class="font-semibold text-2xl">Team Builder</h2>
+          <p class="text-sm pt-4 font-extralight">Scans our talent network to create the optimal team for your project</p>
+          <div class="text-right mt-14">
+            <img class="inline-block" src="images/icon-team-builder.svg" alt="Team Builder"/>
+          </div>
+        </section>
+        
+        <section id="karma" class="bg-white rounded-md border-t-4 mx-14 my-8 p-8 text-left filter drop-shadow-xl max-w-sm order-4">
+          <h2 class="font-semibold text-2xl">Karma</h2>
+          <p class="text-sm pt-4 font-extralight">Regularly evaluates our talent to ensure quality</p>
+          <div class="text-right mt-14">
+            <img class="inline-block" src="images/icon-karma.svg" alt="Team Builder"/>
+          </div>
+        </section>
+      </div>
+      
+      <section id="calculator" class="bg-white rounded-md border-t-4 mx-14 mt-2 p-8 text-left filter drop-shadow-xl max-w-sm lg:my-48 order-3">
+        <h2 class="font-semibold text-2xl">Calculator</h2>
+        <p class="text-sm pt-4 font-extralight">Uses data from past projects to provide better delivery estimates</p>
+        <div class="text-right mt-14">
+          <img class="inline-block" src="images/icon-calculator.svg" alt="Team Builder"/>
+        </div>
+      </section>
+    </div>
+
+    
+  </main>
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/BootstrapKat">Kat Anderson</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
